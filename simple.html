@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      /*<i class="fa-sharp fa-solid fa-hand" style="color: white"></i>*/
+      @media only screen and (max-width: 800px) {
+        nav ul {
+          display: flex;
+          flex-direction: column;
+        }
+        nav {
+          text-align: center;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      nav {
+        padding: 15px;
+        background-color: #5f6769;
+      }
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row; */
+      }
+
+      ul li {
+        list-style-type: none;
+      }
+      ul li a {
+        text-decoration: none;
+        color: white;
+        margin: 0px 20px;
+        padding: 0px 6px;
+      }
+
+      nav ul ul li a:hover {
+        color: red;
+        padding: 4px;
+        background-color: white;
+        border-radius: 3px;
+      }
+      .imgPath {
+        /* width: 80%;
+        padding-left: 280px;
+        height: 450px; */
+      }
+      .col h1 {
+        padding: 40px 0;
+        text-align: center;
+        color: white;
+      }
+      .page {
+        text-align: center;
+        background-color: #424242;
+        padding-bottom: 15px;
+      }
+      .footer {
+        background-color: #5f6769;
+      }
+      .row2 {
+        padding: 25px 0;
+        display: flex;
+      }
+      .row2 {
+        padding: 30px;
+      }
+      .row2 p {
+        color: white;
+        margin: 5px 20px;
+        padding-bottom: 25px;
+      }
+      i {
+        color: #476268;
+        padding-bottom: 5px;
+      }
+      .row2 .col {
+        background-color: #719192;
+        border-radius: 5px;
+        margin: 5px 15px;
+        padding: 25px 25px;
+      }
+
+      .row2 .col:hover {
+        box-shadow: 4px 4px 4px 4px;
+        cursor: pointer;
+      }
+      .col .btn {
+        display: inline;
+        padding: 5px;
+        background-color: #476268;
+        border-radius: 3px;
+      }
+      .col .btn a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .col .btn:hover {
+        background-color: #dfcdc3;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 50px;
+      }
+      .footer p {
+        color: white;
+      }
+
+      /* table*/
+
+      table {
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+
+      table,
+      th,
+      td {
+        border: solid 1px white;
+        border-collapse: collapse;
+      }
+
+      td a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        padding: 0 10px;
+      }
+      td p {
+        margin: 0 10px;
+      }
+      .mytable {
+        padding-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-items">
+        <li class="navbar-item">
+          <a href=""
+            ><i class="fa-sharp fa-solid fa-hand" style="color: white"></i>
+            AcunMedyaEtüt</a
+          >
+        </li>
+        <ul class="navbar-item">
+          <li><a href="">C#</a></li>
+          <li><a href="">javaScript</a></li>
+          <li><a href="">phyton</a></li>
+          <li><a href="">react</a></li>
+        </ul>
+      </ul>
+    </nav>
+    <div class="page">
+      <div class="row">
+        <div class="col">
+          <h1>AcunMedyaTraining</h1>
+          <img
+            class="imgPath"
+            src="./imgPath/acunmedya-akademi-logo-siyah (1).png"
+            alt=""
+          />
+        </div>
+        <div class="row2">
+          <div class="col">
+            <i class="fa-4x fa-sharp fa-solid fa-video"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              rem, consectetur sapiente architecto incidunt magnam tempora
+              explicabo qui repellendus voluptatum inventore quia ea debitis
+              eveniet officiis dignissimos eaque! Ad, sequi.
+            </p>
+            <div class="btn"><a href=""> İzle </a></div>
+          </div>
+          <div class="col">
+            <i class="fa-4x fa-sharp fa-solid fa-comments"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              quia voluptas exercitationem, quisquam libero ab aliquam ut
+              deleniti expedita, error laudantium quibusdam a. Dolores corrupti
+              dolore ipsam aperiam aspernatur qui!
+            </p>
+            <div class="btn"><a href="">Takip Et!</a></div>
+          </div>
+          <div class="col">
+            <i class="fa-4x fa-sharp fa-solid fa-person"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus quo minima qui? Praesentium facere recusandae placeat
+              esse dicta voluptate tempora cupiditate, nobis quod omnis
+              pariatur, alias culpa dolor sunt accusantium?
+            </p>
+            <div class="btn"><a href="">Daha Fazlası için!</a></div>
+          </div>
+        </div>
+        <div class="row3">
+          <div class="mytable">
+            <h1 style="color: white">İçerikleri Takip Et</h1>
+            <table>
+              <thead>
+                <tr>
+                  <th>Eğitim</th>
+                  <th>İçerik</th>
+                  <th>Fiyat/Bilgi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="./imgPath/js.jpg" alt="" />
+                  </td>
+                  <td>
+                    <p>
+                      PureJavascript Kodlayarak Frontend dizayn etmeye hazır
+                      mısın ?
+                    </p>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.udemy.com/course/the-complete-javascript-course/"
+                      >Detay için Tıklayınız</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="./imgPath/indir.png" alt="" /></td>
+                  <td>
+                    <p>.Net Core teknolojisi ile tanışıp Backend inşaa et!</p>
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.udemy.com/course/sifirdan-ileri-seviye-csharp-programlama/"
+                      >Detay için Tıklayınız</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2022 yılı son çeyrek etüt çalışması hakkında</p>
+    </div>
+  </body>
+</html>
